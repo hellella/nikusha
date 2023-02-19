@@ -1,0 +1,11 @@
+form {
+    width: 360px;
+    margin: auto;
+}
+form .formebi,form .submit {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%
+    ;
+}
+
