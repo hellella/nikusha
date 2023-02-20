@@ -1,38 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>   <link rel="stylesheet" href="styles.css">
-   
+<head>
+<link rel="stylesheet" href="./saitistyle.css">
 </head>
-<body>
-    <h1>registration form</h1>
-   
-    <form action="">
-        <label for="fname">First name:</label><br>
-        <input class="formebi" type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input class="formebi" type="text" id="lname" name="lname">
-        <label for="address">costumer address</label>
-        <input class="formebi" id="address" type="text" name="costumer address   "> 
-    <label for="number">tel number</label>
-    <input class="formebi" id="number" type="text" name="tel number">
-  <label for="date">date of birth</label>  
-  <input class="formebi" id="date"  type="date">
-  <label for="gender">gender</label>
-  <input id="gender" type="text" class="formebi">
-  <label for="mailbox name">mailbox name</label>
-  <input id="mailbox name" type="email" class="formebi">
-  <label for="pass">password</label>
-  <input id="pass" type="text" class="formebi">
-  <label for="re pass">re password</label>
-  <input id="re pass" type="text" class="formebi">
-  
-  <label for="picture">please upload your picture</label>
-  <input id="picture" type="file" class="formebi">
-  <input type="submit" class="submit" value="registration" >
+<body>  
  
+  <div class="gareta-konteineri">
+    <form action="" method="get">
+       <div class="formebistvis" > 
+        <label class="text-input-label" for="username">სახელი</label>
+        <input class="text-input" type="text" name="uername" id="username" placeholder="დაწერეთ თქვენი სახელი">
+      </div>
+
+      <div class="formebistvis" > 
+        <label class="text-input-label" for="last name">გვარი</label>
+        <input class="text-input" type="text" name="last name" id="last name" placeholder="დაწერეთ თქვენი გვარი">
+      </div>
+
+      <div class="formebistvis" > 
+        <label class="text-input-label" for="birth">დაბადების თარიღი</label>
+        <input class="text-input" type="date" name="birth" id="birth >
+      </div>
+
+      <div class="formebistvis" > 
+        <label class="text-input-label" for="country">ქვეყანა</label>
+        <select class="location">
+          <option>ბრაზილია</option>
+          <option>გერმანია</option>
+          <option>საქართველო</option>
+          <option>საბერძნეთი</option>
+          <option>საფრანგეთი</option>
+ </select>
+       
+      </div>
+<div class="formebistvis">       
+       
+        <label class="text-input-label" for="pass">პაროლი</label>
+         <input class="text-input"type="text" name="password" id="pass" placeholder="დაწერეთ პაროლი"></div>
+
+         <div class="formebistvis" > 
+            <label class="text-input-label" for="repass">გაიმეორეთ პაროლი</label>
+            <input class="text-input" type="password" name="repass" id="repass" placeholder="გაიმეორეთ პაროლი">
+          </div>
+ <div class="formebistvis">
+ <div class="sex">
+<label for="female">ქალი</label>
+<input type="radio" name="qali" id="female"></div>
 
 
-      </form>
-    
+ <div class="sex"> <label for="sex">კაცი</label>
+    <input type="radio" name="kaci" id="sex">
+ </div>
+</div>
+ <button class="button" >რეგისტრაცია</button>
+
+ <a class="dekori" href="#">ავტორიზაცია</a>
+  
+
+    </form>
+  </div>
 </body>
 </html>
